@@ -1,0 +1,270 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    background-color: rgb(167, 203, 210);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    height: 80px;
+}
+
+.logo img {
+    height: 120px;
+    width: 140px;
+    margin-left: 75px;
+}
+
+
+.con ul {
+    margin-left: 90px;
+}
+
+.con li {
+    overflow: hidden;
+    float: left;
+    font-size: 25px;
+    margin-left: 35px;
+    margin-top: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+
+}
+
+.donate button {
+    margin-left: 20px;
+    font-size: 22px;
+    background-color: rgb(61, 131, 121);
+    color: azure;
+    border: 1px transparent solid;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    height: 545px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.b-1 {
+    background-color: rgb(104, 131, 141);
+    width: 350px;
+    height: 25px;
+    border-radius: 7px;
+    color: rgb(217, 212, 212);
+    margin-top: 125px;
+
+}
+
+.text-1 h1 {
+    line-height: 65px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.b-2 {
+    width: 130px;
+    height: 25px;
+    background-color: rgb(71, 117, 134);
+    color: aliceblue;
+    margin-top: 25px;
+}
+
+.img-1 img {
+    margin-top: 151px;
+}
+
+
+.img {
+    background: url(assest/Quran.jpg);
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    opacity: 0.9;
+}
+.hh img{
+    width: 525px;
+    margin-top: 50px; 
+}
+
+.hh h3 {
+    margin-top: 25px;
+    color: white;
+}
+
+.hh h2 {
+    color: white;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.hh p {
+    margin-top: 10px;
+    color: white;
+    background-color: transparent;
+}
+
+.hh {
+    top: 2px;
+    position: absolute;
+    left: 125px;
+    background-color: rgb(149, 180, 206) transparent;
+}
+.text-2 {
+    right: 80px;
+    top: 30px;
+    position: absolute;
+}
+.text-2 h3 {
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+.text-2 h4 {
+   text-align: center;
+   margin-top: 20px;
+   color: aliceblue;
+
+}
+span {
+    color:  rgb(149, 180, 206);
+}
+
+.imgg {
+    width: 500px;
+    margin-top: 25px;
+}
+
+.imggg {
+    width: 500px;
+    height: 550px;
+    margin-top: 30px;
+    border-radius: 45px;
+}
+
+.pillar {
+    height: 150px;
+    display: grid;
+    grid-template-columns:  16% 16% 16% 16% 16%;
+    margin-left: 220px;
+    margin-top: 35px;
+}
+.h-2 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.pil-1 {
+    border: 5px solid black;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.pil-1 p {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.pil-1 img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.expert {
+    height: 450px;
+}
+.expert p {
+margin-top: 50px;
+font-size: 22px;
+text-align: center;
+}
+.expert h2 {
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.expert img {
+    margin-left: 350px;
+    margin-top: 50px;
+
+}
+
+.bt-3 {
+    font-size: 16px;
+    background-color: rgb(83, 102, 108);
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    color: rgb(217, 212, 212);
+    margin-top: 50px;
+    margin-left: 700px;
+    text-align: center;
+}
+
+footer {
+    height: 400px;
+    background-color: rgb(115,142,152);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 50px;
+}
+
+ul {
+    margin-left: 80px;
+}
+.img-f {
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+}
+.img-s {
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.img-t {
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.img-for {
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.use {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.use p {
+    font-size: 22px;
+}
+
+.use ul {
+    margin-top: 50px;
+}
+.use li {
+    line-height: 30px;
+}
